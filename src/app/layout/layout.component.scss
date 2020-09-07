@@ -1,0 +1,42 @@
+.sidebar-container {
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    color: #fff;
+    border-right: 1px solid #eee;
+    box-shadow: 0 0 10px #ececec;
+    transition: left .6s ease-out;
+  }
+
+  .header {
+    padding-left: 49px;
+    padding-top: 0px;
+  }
+
+  .content-container {
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 25px;
+    margin-bottom: 100px;
+    width: 1680px;
+    height: 100%;
+  }
+
+
+  #viewport {
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+  }
+
+  #content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+}
